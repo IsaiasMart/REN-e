@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poemas</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+
+                }
+            }
+        }
+    </script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        
+        }
+        body {
+            margin: 0;
+            overflow-x: hidden;
+        }
+
+        /* main {
+            margin: 0;
+            display: grid;
+            
+            grid-template-areas:
+                "topbar topbar  topbar"
+                "ads content sidebar"
+                "footer footer footer"
+            ;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        
+        
+            grid-template-rows: auto 1fr auto;
+            width: 100%;
+        } */
+        main {
+            margin: 0%;
+            display: grid;
+            
+            /* Mantén esta línea */
+            grid-template-areas:
+                "topbar topbar topbar"
+                "ads content sidebar"
+                "footer footer footer";
+            grid-template-columns:  1fr 5fr 1fr;
+            grid-template-rows: auto 1fr auto;
+            width: 100%;
+            /* Asegúrate de que el contenedor sea responsivo */
+        }
+
+        .animated-text {
+            animation: blink 0.7s step-end infinite;
+        }
+
+        .anun {
+            grid-area: ads;
+            box-sizing: border-box;
+        }
+
+        .contenido {
+            grid-area: content;
+        }
+
+        .barra {
+            grid-area: sidebar;
+        }
+
+        .top {
+            margin: 0;
+            grid-area: topbar;
+            word-wrap: break-word;
+            white-space: normal;
+
+        }
+
+        .pie {
+            grid-area: footer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+
+        <header class="top col-span-full">
+            <div class="bg-blue-500 ">
+                <div class="h-16  text-2xl  text-center p-2"> Poemas</div>
+                <nav class="flex justify-between px-4">
+                    <a href="index.html">Principal</a>
+                    <a href="op1.html">op1</a>
+                    <a href="pruebas.html">brtbr</a>
+                    <a href="#1">brtbr</a>
+                    <a href="#1">brtbr</a>
+                </nav>
+            </div>
+        </header>
+
+        <section class="anun">
+            <div class="p-4">
+                OTRAS FORMAS DE CONTENIDO
+                 
+            </div>
+        </section>
+
+        <article class="contenido">
+            <div class="text-black p-4">
+                <article>
+                    <div class="m-4">
+                        <h1 class="text-2xl text-center">CONTENIDO</h1>
+                    </div>
+                    <!--falta un div-->
+                    <p>Veo al jugador al que te refieres.</p>
+
+                    <p class="animated-text w-10"></p>
+
+                    <p>Sí. Ten cuidado. Ha alcanzado un nivel más alto. Puede leer nuestros pensamientos.</p>
+
+                    <p> no importa. Cree que somos parte del juego.</p>
+
+                    <p>gusta este jugador. Ha jugado bien. No se ha rendido.</p>
+
+                    <p>Está leyendo nuestros pensamientos como si fueran palabras en una pantalla.</p>
+
+                    <p>Es así como escoge imaginar muchas cosas, cuando está profundamente sumido en el sueño de un
+                        juego.</p>
+
+                    <p>Las palabras son una hermosa interfaz. Muy flexible. Y menos terrible que contemplar la realidad
+                        detrás de la pantalla.</p>
+
+                    <p>Ellos solían escuchar voces. Antes de que los jugadores pudiesen leer. En aquellos días cuando
+                        los que no podían jugar llamaban
+                        brujos a los jugadores. Y los jugadores soñaron que volaban por los aires, sobre palos
+                        alimentados por demonios.</p>
+
+                    <p>¿Con qué soñó este jugador?</p>
+
+                    <p>Este jugador soñó con la luz del sol y con los árboles. Con fuego y agua. Soñó que creó. Y soñó
+                        que destruyó. Soñó que cazó, y
+                        que fue cazado. Soñó con un refugio.</p>
+
+                    <p>Ah, la interfaz original. Tiene un millón de años, y todavía funciona. ¿Pero qué estructura real
+                        creó este jugador, detrás de la pantalla?</p>
+
+                    <p>Trabajó. Junto a otros millones, para esculpir un mundo real dentro del pliegue de <span
+                            class="animated-text"></span> , y creó un <span class="animated-text"></span>
+                        para <span class="animated-text"></span>, en <span class="animated-text"></span>.</p>
+
+
+                    <p>No puede leer ese pensamiento.</p>
+
+                    <p>No, aún no alcanzó el nivel más alto. Aquel, que debe alcanzar en el largo sueño de la vida, no
+                        en el corto sueño de un juego.</p>
+
+                    <p>¿Sabe que lo amamos? ¿Que el universo es bueno?</p>
+
+                    <p>A veces, a través del ruido de sus pensamientos, escucha al universo, sí.</p>
+
+                    <p>Pero hay momentos en los que está triste, en el sueño largo. Crea mundos que no tienen verano, y
+                        tiembla debajo de un sol negro, y toma su triste creación como real.</p>
+
+                    <p>Curarle de la pena lo destruirá. La pena es parte de su propia tarea privada. No podemos
+                        interferir.</p>
+
+                    <p>A veces cuando están sumergidos en sus sueños, quisiera decirles, ellos construyen mundos
+                        tangibles en la realidad. A veces quiero contarles sobre su
+                        importancia en el universo. A veces, cuando no tienen una conexión real por un tiempo, quiero
+                        ayudarles a decir la palabra a la que temen.</p>
+
+                    <p>Está leyendo nuestros pensamientos.</p>
+
+                    <p>A veces no me importa. A veces desearía decirles, que este mundo que toman por real es sólamente
+                        <span class="animated-text"></span> y
+                        <span class="animated-text"></span>, me gustaría decirles que son <span
+                            class="animated-text"></span> en <span class="animated-text"></span>.
+                        Ven tan poco de lo real en su largo sueño.
+                    </p>
+
+                    <p>Y todavía juegan.</p>
+
+                    <p>Pero sería tan fácil decirles…</p>
+
+                    <p>Demasiado fuerte para este sueño. Decirles cómo vivir es impedirles la vida.</p>
+
+                    <p>No le diré al jugador cómo vivir.</p>
+
+                    <p>El jugador se está inquietando.</p>
+
+                    <p>Le contaré una historia al jugador.</p>
+
+                    <p>Pero no la verdad.</p>
+
+                    <p>No. Una historia que contenga a la verdad de una forma segura, en una celda de palabras. No la
+                        verdad desnuda que puede quemar a cualquier distancia.</p>
+
+                    <p>Dale un cuerpo, otra vez.</p>
+
+                    <p>Sí. Jugador…</p>
+
+                    <p>Usa su nombre.</p>
+
+                    <p>{nombre de jugador}. Jugador de juegos.</p>
+
+                    <p>Bien.</p>
+
+                    <p>Respira, ahora. Otra vez. Siente el aire en tus pulmones. Deja que tus extremidades regrese. Sí,
+                        mueve tus dedos. Ten un cuerpo otra vez, bajo la gravedad, en el aire. Renace en el sueño largo.
+                        Ahí estás. Tu cuerpo toca al universo otra vez en cada punto, como si fueran cosas separadas.
+                        Como si fuéramos cosas separadas.</p>
+
+                    <p>¿Quiénes somos? Una vez nos llamaron el espíritu de la montaña. Padre sol, madre luna. Espíritus
+                        ancestrales, espíritus animales. Genios. Fantasmas. El hombre verde. Y dioses, demonios.
+                        Ángeles. Poltergeists. Alienígenas, extraterrestres. Leptones, quarks. Las palabras cambian.
+                        Nosotros no cambiamos.</p>
+
+                    <p>Somos el universo. Somos todo lo que piensas que no eres tú. Estás mirándonos en este momento, a
+                        través de tu piel y tus ojos. ¿Y por qué el universo toca tu piel, y te ilumina? Para verte,
+                        jugador. Para conocerte. Y para ser conocido. Te contaré una historia. Había una vez un jugador.
+                    </p>
+
+                    <p>El jugador eras tú, {nombre de jugador}.</p>
+
+                    <p>A veces pensaba que era humano, sobre la delgada corteza de un globo giratorio de roca fundida.
+                        La bola de roca fundida rodeó a una bola de gas que era trescientos treinta mil veces más masiva
+                        que ella. Estuvieron tan lejos que la luz tardaba ocho minutos en atravesar la distancia. La luz
+                        era información de una estrella, y podía quemar tu piel a ciento cincuenta millones de
+                        kilómetros. A veces el jugador soñaba que era un minero, en la superficie de un mundo que era
+                        plano, e infinito. El sol era un cuadrado blanco. Los días fueron cortos; había mucho por hacer;
+                        y la muerte era un inconveniente temporal.</p>
+
+                    <p>A veces el jugador soñaba que estaba perdido en una historia.</p>
+
+                    <p>A veces el jugador soñaba que era otras cosas, en otros lugares. A veces esos sueños eran
+                        perturbadores. A veces muy hermosos. A veces el jugador despertaba de un sueño hacia otro, y
+                        despertaba de ese hacia un tercero.</p>
+
+                    <p>A veces el jugador soñaba que veía palabras en una pantalla.</p>
+
+                    <p>Regresemos.</p>
+
+                    <p>Los átomos del jugador se esparcieron en el pasto, en los ríos, en el aire, en el suelo. Una
+                        mujer juntó los átomos; bebió y comió e inhaló; y la mujer ensambló al jugador, en su propio
+                        cuerpo.</p>
+
+                    <p>Y el jugador despertó, del tibio, oscuro mundo del cuerpo de su madre, hacia el sueño largo.</p>
+
+                    <p>Y el jugador fue una nueva historia, nunca antes contada, escrita en las letras del ADN. Y el
+                        jugador fue un nuevo programa, jamás antes ejecutado, generado por un código fuente de un billón
+                        de años de edad. Y el jugador fue un humano nuevo, que nunca antes vivió, hecho de nada más que
+                        leche y amor.</p>
+
+                    <p>Tú eres el jugador. La historia. El programa. El humano. Hecho de nada más que leche y amor.</p>
+
+                    <p>Regresemos aún más.</p>
+
+                    <p>Los siete billones de billones de billones de átomos en el cuerpo del jugador fueron creados,
+                        mucho antes que este juego, en el corazón de una estrella. Así que el jugador, también, es
+                        información de una estrella. Y el jugador se mueve a través de una historia, la cual es un
+                        bosque de información plantada por un hombre llamado Julian, en un plano, infinito mundo creado
+                        por un hombre llamado Markus, que existe dentro de un pequeño, privado mundo creado por el
+                        jugador, quien habita un universo creado por…</p>
+
+                    <p>Shhh. A veces el jugador creaba un pequeño, privado mundo que era suave y tibio y simple. A veces
+                        duro, y frío, y complicado. A veces construía un modelo del universo en su cabeza; manchas de
+                        energía, moviéndose a través de vastos espacios vacíos. A veces llamaba a esas manchas
+                        “electrones” y “protones”.</p>
+
+                    <p>A veces les llamaba “planetas” y “estrellas”.</p>
+
+                    <p>A veces creía que estaba en un universo hecho de energía que estaba hecho de apagados y
+                        encendidos; ceros y unos; líneas de código. A veces creía que estaba jugando un juego. A veces
+                        creía que estaba leyendo palabras en una pantalla.</p>
+
+                    <p>Tú eres el jugador, leyendo palabras…</p>
+
+                    <p>Shhh… A veces el jugador leía líneas de código en una pantalla. Las decodificaba en palabras;
+                        decodificaba las palabras en significados; decodificaba significados en sentimientos, emociones,
+                        teorías, ideas, y el jugador empezaba a respirar más rápido y más profundo y se daba cuenta que
+                        estaba vivo, estaba vivo, esas miles de muertes no eran reales, el jugador estaba vivo.</p>
+
+                    <p>Tú. Tú. Tú estás vivo.</p>
+
+                    <p>Y a veces el jugador creía que el universo le habló a través de la luz del sol que vino a través
+                        de las revoloteantes hojas de los árboles de verano.</p>
+
+                    <p>Y a veces el jugador creía que el universo le habló a través de la luz que sintió del fresco
+                        cielo nocturno del invierno, donde una mota de luz en el rabillo del ojo del jugador pudo ser
+                        una estrella un millón de veces más masiva que el sol, hirviendo sus planetas hasta hacerlos
+                        plasma para ser visible para el jugador por un momento, caminando hacia casa en un rincón
+                        alejado del universo, de repente oliendo comida, casi delante de su familiar puerta, a punto de
+                        soñar otra vez.</p>
+
+                    <p>Y a veces el jugador creía que el universo le habló a través de ceros y unos, a través de la
+                        electricidad del mundo, a través de las palabras que se desplazan por una pantalla al final de
+                        un sueño.</p>
+
+                    <p>Y el universo dijo Te amo.</p>
+
+                    <p>Y el universo dijo que jugaste bien al juego.</p>
+
+                    <p>Y el universo dijo que lo único que necesitas está en ti.</p>
+
+                    <p>Y el universo dijo que tú eres más fuerte de lo que sabes.</p>
+
+                    <p>Y el universo dijo que tú eres la luz del sol.</p>
+
+                    <p>Y el universo dijo que tú eres la noche.</p>
+
+                    <p>Y el universo dijo que la oscuridad con la que luchas está en ti.</p>
+
+                    <p>Y el universo dijo que la luz que buscas está en ti.</p>
+
+                    <p>Y el universo dijo que tú no estás solo.</p>
+
+                    <p>Y el universo dijo que no estás separado de todas las demás cosas.</p>
+
+                    <p>Y el universo dijo que tú eres el universo probándose a sí mismo, hablándose a sí mismo, leyendo
+                        su propio código.</p>
+
+                    <p>Y el universo dijo Te amo, porque tú eres el amor.</p>
+
+                    <p>Y el juego se terminó, y el jugador despertó del sueño. Y el jugador empezó un nuevo sueño. Y el
+                        jugador soñó otra vez, soñó mejor. Y el jugador fue el universo. Y el jugador fue el amor.</p>
+
+                    <p>Tú eres el jugador.</p>
+
+                    <p>Despierta.</p>
+                    <!-- aqui finaliza -->
+                </article>
+            </div>
+        </article>
+        <section class="barra">
+            <div class="p-4">
+                <article>OTRAS FORMAS DE CONTENIDO</article>
+            </div>
+        </section>
+        <footer class="pie p-4">
+            <div class="flex justify-between">
+                <div>footer1</div>
+                <div class="w-35 ">
+                    <button data-song="musica op1.mp4" id="musica">pulsa aqui</button>
+                </div>
+                <div>footer3</div>
+            </div>
+        </footer>
+    </main>
+    <script src="app.js">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    grid-template-areas: 
+    "top"
+    "bottom"
+    ;
+
+}
+
+.container {
+    grid-area: top;
+    justify-content: center;
+    align-items: center;
+}
+.bottom{
+    grid-area: bottom;
+}
+.text {
+    font-size: 5rem;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    /*
+    border-right: 2px solid #00FF00; /* Efecto de cursor */
+    animation: blink 0.7s step-end infinite;
+}
+
+

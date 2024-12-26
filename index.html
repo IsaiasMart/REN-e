@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Principal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#0D3B66',
+            secondary: '#FAF0CA',
+          },
+        }
+      }
+    }
+  </script>
+
+  <style>
+    @keyframes colorCycle {
+      0% {
+        background-color: #9400D3;
+      }
+
+      50% {
+        background-color: #0D3B66;
+      }
+
+      100% {
+        background-color: #9400D3;
+      }
+    }
+
+    .animation-colorCycle {
+      animation: colorCycle 5s infinite;
+      animation-timing-function: linear;
+    }
+
+   
+
+    /* Luego, puedes usar la fuente en el resto de tu CSS */
+    
+
+    h2 {
+      font-size: 50px;
+    }
+  </style>
+</head>
+
+<body class="m-0">
+  <main>
+    <!-- header con el topbar y el nav-->
+    <header class="col-span-full ">
+      <div class="bg-image bg-no-repeat bg-center p-4 text-center text-white text-2xl animation-colorCycle "
+        style="background-image: url('https://static.wikia.nocookie.net/nana/images/8/89/Nana_Anime.png/revision/latest?cb=20171225225849&path-prefix=es'); background-size:200px">
+      </div>
+
+      <nav class="flex justify-between gap-4 bg-[#0D3B66] px-4 py-4 text-secondaryr rounded-sm">
+        <a href="op1.html"> Origen</a>
+        <a href="#1">Desarrollo</a>
+        <a href="#1"></a>
+        <a href="#1">Vibras</a>
+        <a href="#1">Fun Facts</a>   
+      </nav>
+      <!--
+              encabezado "sobre"
+            -->
+      <h1 class="text-center text-3xl">Sobre</h1>
+      <!--
+            secciones de contenido
+            -->
+      <div class="px-32">
+        <section  >
+          <h2 class="text-xl">seccion primera</h2>
+          <div class=" flex justify-between">
+            
+              <p class="p-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.
+              </p>
+            <div class="flex justify-end">
+              <img class=" " src="imagen1.png" alt="">
+            </div>
+        </div>
+        </section>
+
+        <hr>
+        <article>
+          <h2 class="text-xl">seccion segunda</h2>
+          <div class=" flex justify-between">
+            <img class="w-64"
+              src="https://www.aceitesdeolivadeespana.com/wp-content/uploads/2023/09/closeup-of-valencian-fideua-with-fork-in-gray-back-2023-04-24-18-52-11-utc-1.jpeg"
+              alt="">
+            <div class="p-4 ">
+              <p >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article>
+          <h2 class="text-xl">seccion tercera</h2>
+          <div class="flex justify-between">
+            <div>
+            <p class="p-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+              in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+              deserunt mollit anim id est laborum.
+            </p>
+            <p class="p-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+              in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+              deserunt mollit anim id est laborum.
+            </p></div>
+          <div class="flex justify-end">
+            <img class=" w-64 "
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHtLh0q3ldrPIb-1IiFO7BH3nQwvaMHTgImQ&s" alt="">
+          </div>
+        </div>
+
+        </article>
+        <br>
+        <article>
+          <h2 class="text-xl">seccion cuarta</h2>
+          <div class=" flex">
+          <img class="w-32 "
+            src="https://static.wikia.nocookie.net/winx/images/4/4d/Il-destino-di-bloom.png/revision/latest/scale-to-width-down/290?cb=20200302215950&path-prefix=es"
+            alt="">
+            <div class="p-4 ">
+              <p >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+
+    </header>
+  </main>
+</body>
+
+</html>
+<!--
+    En **Tailwind CSS**, las clases funcionan de una manera **utilitaria**. Esto significa que Tailwind proporciona una gran cantidad de clases predefinidas para aplicar estilos directamente al HTML sin necesidad de escribir CSS adicional. Estas clases están diseñadas para ser pequeñas, específicas y combinables, permitiéndote construir interfaces rápidamente.
+
+---
+
+### **Principio clave: Estilos utilitarios**
+En lugar de escribir reglas CSS personalizadas, usas clases para controlar cada aspecto del diseño (como colores, espaciado, tipografía, etc.). Por ejemplo:
+
+```html
+<div class="bg-blue-500 text-white p-4 rounded-lg">
+  ¡Hola, Tailwind!
+</div>
+```
+
+- **`bg-blue-500`**: Aplica un color de fondo azul.
+- **`text-white`**: Cambia el color del texto a blanco.
+- **`p-4`**: Añade un margen interno (padding) de `1rem` (16px).
+- **`rounded-lg`**: Aplica bordes redondeados.
+
+---
+
+### **Cómo funcionan las clases por categorías**
+
+#### **1. Colores (`bg-`, `text-`, `border-`)**
+- **Colores de fondo (`bg-`)**:
+  ```html
+  <div class="bg-red-500">Fondo rojo</div>
+  ```
+- **Colores de texto (`text-`)**:
+  ```html
+  <p class="text-green-600">Texto verde</p>
+  ```
+- **Colores de borde (`border-`)**:
+  ```html
+  <div class="border border-yellow-400">Borde amarillo</div>
+  ```
+
+#### **2. Espaciado (`p-`, `m-`)**
+- **Padding (`p-`)**:
+  ```html
+  <div class="p-4">Padding de 1rem</div>
+  ```
+- **Margin (`m-`)**:
+  ```html
+  <div class="m-2">Margin de 0.5rem</div>
+  ```
+
+Tailwind usa un sistema escalado (`0, 1, 2, 3...`) que corresponde a valores en `rem`. Por ejemplo:
+- `p-4`: Padding de **1rem (16px)**.
+- `m-2`: Margin de **0.5rem (8px)**.
+
+#### **3. Tipografía (`text-`, `font-`, `leading-`)**
+- **Tamaño del texto (`text-`)**:
+  ```html
+  <h1 class="text-3xl">Texto grande</h1>
+  ```
+  Ejemplo de tamaños:
+  - `text-xs`, `text-sm`, `text-base`, `text-lg`, `text-xl`, `text-2xl`, etc.
+
+- **Fuente (`font-`)**:
+  ```html
+  <p class="font-bold">Texto en negrita</p>
+  <p class="font-light">Texto ligero</p>
+  ```
+
+- **Espaciado entre líneas (`leading-`)**:
+  ```html
+  <p class="leading-loose">Espaciado amplio entre líneas</p>
+  ```
+
+#### **4. Tamaños (`w-`, `h-`)**
+- **Ancho (`w-`) y alto (`h-`)**:
+  ```html
+  <div class="w-1/2 h-32">50% de ancho, 8rem de alto</div>
+  ```
+
+Ejemplos de valores:
+- Unidades fraccionarias: `w-1/2` (50%), `w-1/4` (25%).
+- Valores fijos: `w-32`, `h-16` (múltiplos de 4 en píxeles).
+- Ancho completo: `w-full`.
+
+#### **5. Bordes (`rounded-`, `border-`)**
+- **Redondear bordes (`rounded-`)**:
+  ```html
+  <div class="rounded-full">Bordes redondeados al máximo</div>
+  ```
+  Ejemplos:
+  - `rounded-sm`, `rounded-lg`, `rounded-full`.
+
+- **Grosor de bordes (`border-`)**:
+  ```html
+  <div class="border-2">Borde de 2px</div>
+  ```
+
+#### **6. Flexbox y Grid**
+- **Clases de flexbox**:
+  ```html
+  <div class="flex items-center justify-between">
+    <span>Elemento 1</span>
+    <span>Elemento 2</span>
+  </div>
+  ```
+  Ejemplo de clases:
+  - `flex`, `flex-col`, `justify-center`, `items-start`.
+
+- **Clases de grid**:
+  ```html
+  <div class="grid grid-cols-3 gap-4">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+  </div>
+  ```
+  Ejemplo de clases:
+  - `grid-cols-3` (3 columnas), `gap-4` (separación entre elementos).
+
+---
+
+### **Características avanzadas**
+#### **1. Modificadores responsivos**
+Tailwind incluye clases para diseño responsivo:
+- Usa prefijos como `sm:`, `md:`, `lg:`, `xl:`, etc.
+  ```html
+  <div class="text-sm md:text-lg lg:text-xl">
+    Texto que cambia según el tamaño de pantalla
+  </div>
+  ```
+
+#### **2. Estados interactivos**
+Clases para estados como hover, focus, active:
+- **Ejemplo**:
+  ```html
+  <button class="bg-blue-500 hover:bg-blue-700 text-white">
+    Botón interactivo
+  </button>
+  ```
+
+#### **3. Temas oscuros**
+Tailwind soporta temas oscuros con el prefijo `dark:`:
+- **Ejemplo**:
+  ```html
+  <div class="bg-white dark:bg-gray-800 text-black dark:text-white">
+    Tema claro y oscuro
+  </div>
+  ```
+
+---
+
+### **Ventajas de usar Tailwind**
+- **Rapidez**: Escribes estilos directamente en tu HTML, lo que acelera el desarrollo.
+- **Personalización**: Puedes extender o modificar las clases a través de un archivo de configuración (`tailwind.config.js`).
+- **Menos CSS adicional**: Evitas escribir CSS personalizado para estilos simples.
+
+¿Te gustaría ver ejemplos prácticos o cómo configurar un proyecto con Tailwind? 😊
+-->
